@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/WSC/!svn/ver/7605/devicecloud/code/devicecloud_portal/build
+END
+vue-loader.conf.js
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/WSC/!svn/ver/7605/devicecloud/code/devicecloud_portal/build/vue-loader.conf.js
+END
+logo.png
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/WSC/!svn/ver/7605/devicecloud/code/devicecloud_portal/build/logo.png
+END
+webpack.base.conf.js
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/WSC/!svn/ver/7605/devicecloud/code/devicecloud_portal/build/webpack.base.conf.js
+END
+webpack.dev.conf.js
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/WSC/!svn/ver/7605/devicecloud/code/devicecloud_portal/build/webpack.dev.conf.js
+END
+build.js
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/WSC/!svn/ver/7605/devicecloud/code/devicecloud_portal/build/build.js
+END
+utils.js
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/WSC/!svn/ver/7605/devicecloud/code/devicecloud_portal/build/utils.js
+END
+check-versions.js
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/WSC/!svn/ver/7605/devicecloud/code/devicecloud_portal/build/check-versions.js
+END
+webpack.prod.conf.js
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/WSC/!svn/ver/7605/devicecloud/code/devicecloud_portal/build/webpack.prod.conf.js
+END

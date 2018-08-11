@@ -1,0 +1,712 @@
+.paginate {
+  float: right;
+  margin-right: 20px;
+  display: inline-block;
+  border-radius: 4px;
+  padding-left: 0;
+  margin-bottom: 20px;
+}
+
+.paginate li {
+  display: inline;
+}
+
+.paginate li:first-child a {
+  margin-left: 0;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+
+.paginate li:last-child a {
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+.paginate li a {
+  position: relative;
+  float: left;
+  padding: 6px 12px;
+  color: black;
+  border: 1px solid #DDD;
+  margin-left: -1px;
+  text-decoration: none;
+}
+
+.paginate .active a {
+  color: #fff;
+  cursor: default;
+  background-color: #707377;
+  border-color: #707377;
+  z-index: 3;
+}
+
+.paginate li:not(.active) a:hover {
+  background-color: #ddd;
+}
+
+.paginate li.disabled a:hover {
+  cursor: no-drop;
+}
+
+.dialog-size {
+  min-width: 500px;
+}
+
+.dialog-small-size {
+  top: 50%;
+  width: 300px;
+}
+
+.dialog_content {
+  max-height: 400px;
+  overflow-y: auto;
+  text-align: center;
+}
+
+table.table-setting {
+  width: 100%;
+  font-size: 18px;
+}
+
+table.table-setting tr {
+  height: 40px;
+  padding: 3px 0;
+}
+
+table.table-setting td:first-child {
+  text-align: right;
+  width: 25%;
+  padding-right: 10px;
+}
+
+table.table-setting td:last-child {
+  text-align: left;
+  width: 70%;
+  padding-left: 10px;
+  vertical-align: middle;
+}
+
+html {
+  height: calc(100% - 50px);
+}
+
+body {
+  height: 100%;
+}
+
+.content-box {
+  margin: 10px;
+}
+
+.table {
+  font-size: 16px;
+}
+
+.table td {
+  text-align: center;
+}
+
+.table thead {
+  background-color: #343435;
+  color: white;
+  text-align: center;
+}
+
+.table thead img {
+  height: 20px;
+  margin-right: 10px;
+}
+
+.table tbody img {
+  height: 30px;
+  margin-right: 10px;
+}
+
+.table tbody tr:hover {
+  background-color: #eee;
+}
+
+.arrow {
+  display: inline-block;
+  vertical-align: middle;
+  width: 0;
+  height: 0;
+  margin-left: 5px;
+  opacity: 0.66;
+}
+
+.arrow.asc {
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-bottom: 4px solid #fff;
+}
+
+.arrow.dsc {
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-top: 4px solid #fff;
+}
+
+.table > thead > tr > th.active {
+  background-color: #2f373d;
+  color: white;
+}
+
+.table th {
+  text-align: center;
+  color: white;
+}
+
+table .glyphicon {
+  font-size: 20px;
+}
+
+table tbody .glyphicon:hover {
+  cursor: pointer;
+}
+
+.table tbody tr:last-child {
+  border-bottom: 2px solid #343435;
+}
+
+.table > tbody > tr > td {
+  vertical-align: middle;
+  word-break: break-all;
+}
+
+table.table-border tr {
+  border-bottom: 1px solid grey;
+  padding: 5px;
+}
+
+table.table-border tr:last-child {
+  border-bottom: none;
+}
+
+table.table-border td {
+  min-width: 200px;
+  line-height: 30px;
+  padding: 5px;
+  padding-left: 10px;
+}
+
+table.table-border td.right {
+  text-align: right;
+}
+
+table.table-border thead {
+  font-size: 20px;
+  border-bottom: 2px solid grey;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+table img.default:hover,
+img.default:hover {
+  cursor: auto;
+}
+
+.disabled:hover {
+  cursor: no-drop;
+}
+
+.border-box {
+  display: inline-block;
+  border: 1px solid #888;
+  border-radius: 4px;
+}
+
+.block-row {
+  height: 30px;
+  line-height: 30px;
+  background-color: #34495E;
+  color: white;
+  font-size: 18px;
+  padding-left: 20px;
+}
+
+.btn-blue:hover {
+  background-color: #585b5e;
+  color: white;
+}
+
+.btn-blue {
+  background-color: #707377;
+  color: white;
+}
+
+.btn-blue:active,
+.btn-blue:focus {
+  color: white;
+}
+
+.btn-white:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.btn-white {
+  border: 1px solid #ddd;
+  background-color: white;
+  color: black;
+}
+
+.btn-white:active,
+.btn-white:focus {
+  color: black;
+}
+
+.btn img {
+  height: 20px;
+}
+
+.btn-right {
+  float: right;
+}
+.opBar-footer {
+  padding: 10px;
+  margin-top: -20px;
+  height: 56px;
+  text-align: right;
+}
+
+span.green {
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  border-radius: 20px;
+  background-color: green;
+  vertical-align: middle;
+}
+
+span.red {
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  border-radius: 20px;
+  background-color: red;
+  vertical-align: middle;
+}
+
+span.gray {
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  border-radius: 20px;
+  background-color: gray;
+  vertical-align: middle;
+}
+
+span.shortMsg-500 {
+  display : inline-block;
+  overflow : hidden;
+  text-overflow : ellipsis;
+  white-space : nowrap;
+  width : 500px;
+}
+
+.errInput {
+  border: 1px solid red;
+}
+
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.opBar-head {
+  padding: 10px;
+  margin-top: -20px;
+  height: 56px;
+  text-align: right;
+  margin-top: -56px;
+}
+
+.form-box {
+  display: inline-block;
+  width: 100%;
+  height: 30px;
+  padding: 5px;
+  margin: 10px;
+  font-size: 14px;
+  line-height: 1.4257143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+  transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+
+/*  */
+
+.w-50 {
+  width: 50px;
+}
+
+.w-150 {
+  width: 150px;
+}
+
+.w-100 {
+  width: 100px;
+}
+
+.w-200 {
+  width: 200px;
+}
+
+.w-300 {
+  width: 300px;
+}
+
+.w-500 {
+  width: 500px;
+}
+
+.searchBar button{
+  margin: 8px 10px;
+}
+
+.searchBar input[type="text"] {
+    background-image: url('/static/searchicon.png');
+    background-position: 5px 4px;
+    background-repeat: no-repeat;
+    padding-left: 30px;   
+}
+
+.searchBar select {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.modal-box .label-title {
+  color: #999;
+  font-weight: normal;
+  margin-bottom: 5px;
+}
+
+.modal-box .label-content {
+  min-height: 34px;
+  color: black;
+  font-weight: normal;
+  font-size: 20px;
+}
+
+.modal-box {
+  margin-bottom: 20px;
+  min-height: 55px;
+}
+
+.modal-header span.glyphicon-pencil {
+  float: right;
+}
+
+.modal-header span.glyphicon-pencil:hover {
+  cursor: pointer;
+}
+
+.btn-borderless {
+  background-color: #ededed;
+  color: #727272;
+  font-size: 18px;
+}
+.btn-borderless:hover {
+  background-color: #d5d5d6;
+  color: #727272;
+  font-size: 18px;
+}
+.t-left,
+.t-left td,
+td.t-left {
+  text-align: left;
+}
+
+.t-right,
+.t-right td,
+td.t-right {
+  text-align: right;
+}
+
+.searchBar {
+  height: 50px;
+  background-color: #4e4f4f;
+}
+
+.searchBar input:disabled {
+  cursor: not-allowed;
+  background-color: #f7f7f7;
+  opacity: 1;
+}
+
+.glyphicon.warning-icon{
+  color: #F0D200;
+}
+
+.glyphicon.error-icon{
+  color: red;
+}
+
+.glyphicon.glyphicon-info-sign {
+  margin-right: 10px;
+}
+
+.ellipsis {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+
+/*json formatter*/
+
+.json-formatter-row,
+.json-formatter-row a,
+.json-formatter-row a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+.json-formatter-row .json-formatter-row {
+  margin-left: 1rem;
+}
+
+.json-formatter-row .json-formatter-children.json-formatter-empty {
+  opacity: 0.5;
+  margin-left: 1rem;
+}
+
+.json-formatter-row .json-formatter-children.json-formatter-empty:after {
+  display: none;
+}
+
+.json-formatter-row .json-formatter-children.json-formatter-empty.json-formatter-object:after {
+  content: "No properties";
+}
+
+.json-formatter-row .json-formatter-children.json-formatter-empty.json-formatter-array:after {
+  content: "[]";
+}
+
+.json-formatter-row .json-formatter-string {
+  color: green;
+  white-space: pre;
+  word-wrap: break-word;
+}
+
+.json-formatter-row .json-formatter-number {
+  color: blue;
+}
+
+.json-formatter-row .json-formatter-boolean {
+  color: red;
+}
+
+.json-formatter-row .json-formatter-null {
+  color: #855A00;
+}
+
+.json-formatter-row .json-formatter-undefined {
+  color: #ca0b69;
+}
+
+.json-formatter-row .json-formatter-function {
+  color: #FF20ED;
+}
+
+.json-formatter-row .json-formatter-date {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.json-formatter-row .json-formatter-url {
+  text-decoration: underline;
+  color: blue;
+  cursor: pointer;
+}
+
+.json-formatter-row .json-formatter-bracket {
+  color: blue;
+}
+
+.json-formatter-row .json-formatter-key {
+  color: #00008B;
+  cursor: pointer;
+  padding-right: 0.2rem;
+}
+
+.json-formatter-row .json-formatter-constructor-name {
+  cursor: pointer;
+}
+
+.json-formatter-row .json-formatter-toggler {
+  line-height: 1.2rem;
+  font-size: 0.7rem;
+  vertical-align: middle;
+  opacity: 0.6;
+  cursor: pointer;
+  padding-right: 0.2rem;
+}
+
+.json-formatter-row .json-formatter-toggler:after {
+  display: inline-block;
+  transition: transform 100ms ease-in;
+  content: "\25BA";
+}
+
+.json-formatter-row > a > .json-formatter-preview-text {
+  opacity: 0;
+  transition: opacity 0.15s ease-in;
+  font-style: italic;
+}
+
+.json-formatter-row:hover > a > .json-formatter-preview-text {
+  opacity: 0.6;
+}
+
+.json-formatter-row.json-formatter-open > .json-formatter-toggler-link .json-formatter-toggler:after {
+  transform: rotate(90deg);
+}
+
+.json-formatter-row.json-formatter-open > .json-formatter-children:after {
+  display: inline-block;
+}
+
+.json-formatter-row.json-formatter-open > a > .json-formatter-preview-text {
+  display: none;
+}
+
+.json-formatter-row.json-formatter-open.json-formatter-empty:after {
+  display: block;
+}
+
+.json-formatter-dark.json-formatter-row {
+  font-family: monospace;
+}
+
+.json-formatter-dark.json-formatter-row,
+.json-formatter-dark.json-formatter-row a,
+.json-formatter-dark.json-formatter-row a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.json-formatter-dark.json-formatter-row .json-formatter-row {
+  margin-left: 1rem;
+}
+
+.json-formatter-dark.json-formatter-row .json-formatter-children.json-formatter-empty {
+  opacity: 0.5;
+  margin-left: 1rem;
+}
+
+.json-formatter-dark.json-formatter-row .json-formatter-children.json-formatter-empty:after {
+  display: none;
+}
+
+.json-formatter-dark.json-formatter-row .json-formatter-children.json-formatter-empty.json-formatter-object:after {
+  content: "No properties";
+}
+
+.json-formatter-dark.json-formatter-row .json-formatter-children.json-formatter-empty.json-formatter-array:after {
+  content: "[]";
+}
+
+.json-formatter-dark.json-formatter-row .json-formatter-string {
+  color: #31F031;
+  white-space: pre;
+  word-wrap: break-word;
+}
+
+.json-formatter-dark.json-formatter-row .json-formatter-number {
+  color: #66C2FF;
+}
+
+.json-formatter-dark.json-formatter-row .json-formatter-boolean {
+  color: #EC4242;
+}
+
+.json-formatter-dark.json-formatter-row .json-formatter-null {
+  color: #EEC97D;
+}
+
+.json-formatter-dark.json-formatter-row .json-formatter-undefined {
+  color: #ef8fbe;
+}
+
+.json-formatter-dark.json-formatter-row .json-formatter-function {
+  color: #FD48CB;
+}
+
+.json-formatter-dark.json-formatter-row .json-formatter-date {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.json-formatter-dark.json-formatter-row .json-formatter-url {
+  text-decoration: underline;
+  color: #027BFF;
+  cursor: pointer;
+}
+
+.json-formatter-dark.json-formatter-row .json-formatter-bracket {
+  color: #9494FF;
+}
+
+.json-formatter-dark.json-formatter-row .json-formatter-key {
+  color: #23A0DB;
+  cursor: pointer;
+  padding-right: 0.2rem;
+}
+
+.json-formatter-dark.json-formatter-row .json-formatter-constructor-name {
+  cursor: pointer;
+}
+
+.json-formatter-dark.json-formatter-row .json-formatter-toggler {
+  line-height: 1.2rem;
+  font-size: 0.7rem;
+  vertical-align: middle;
+  opacity: 0.6;
+  cursor: pointer;
+  padding-right: 0.2rem;
+}
+
+.json-formatter-dark.json-formatter-row .json-formatter-toggler:after {
+  display: inline-block;
+  transition: transform 100ms ease-in;
+  content: "\25BA";
+}
+
+.json-formatter-dark.json-formatter-row > a > .json-formatter-preview-text {
+  opacity: 0;
+  transition: opacity 0.15s ease-in;
+  font-style: italic;
+}
+
+.json-formatter-dark.json-formatter-row:hover > a > .json-formatter-preview-text {
+  opacity: 0.6;
+}
+
+.json-formatter-dark.json-formatter-row.json-formatter-open > .json-formatter-toggler-link .json-formatter-toggler:after {
+  transform: rotate(90deg);
+}
+
+.json-formatter-dark.json-formatter-row.json-formatter-open > .json-formatter-children:after {
+  display: inline-block;
+}
+
+.json-formatter-dark.json-formatter-row.json-formatter-open > a > .json-formatter-preview-text {
+  display: none;
+}
+
+.json-formatter-dark.json-formatter-row.json-formatter-open.json-formatter-empty:after {
+  display: block;
+}

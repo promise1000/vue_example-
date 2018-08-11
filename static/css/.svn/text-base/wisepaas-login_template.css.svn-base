@@ -1,0 +1,616 @@
+/*Logo沒有副標題，值為2；Logo有副標題，值為1*/
+/* replace all `var(--center-logo-height-baseratio)` below to be 1 or 2*/
+:root {
+  --center-logo-height-baseratio: 2;
+}
+
+*, html, body {
+  margin: 0px;
+}
+
+
+
+#login-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+#login-box-first {
+  position: relative; 
+  background-color: white;
+}
+
+#topleft-logo-first {
+  position: absolute;
+}
+
+#center-logo-wrapper-first {
+  width: 100%;
+  position: absolute;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-direction: column;
+  flex-direction: column; 
+}
+
+@media (max-width: 767px) {
+  #particles-js {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  #particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+	/* 淺色背景請依序改成這兩個值: #FAFAFA, #969696 深色背景請依序改成這兩個值: #10253f, #080f18*/
+    background-image: radial-gradient(#10253f, #080f18); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;  
+  }
+}
+#login-message-first {
+  transform-origin: left; 
+  font-family: Arial; 
+  position: absolute;
+}
+
+#login-form-first {
+  position: absolute;
+}
+
+#login-username-first {
+  margin: 0 auto;
+  border-radius: 0px;
+  border-color: #C2C2C2;
+  border-width: 2px 2px 1px 2px;  
+}
+
+#login-username-first:focus {
+  border: solid #99CAFF;
+  border-width: 2px 2px 1px 2px;
+  color: #000000;
+}
+
+#login-pwd-first {
+  margin: 0 auto;
+  border-radius: 0px;
+  border-color: #C2C2C2;
+  border-width: 1px 2px 2px 2px;
+}
+
+#login-pwd-first:focus {
+  border: solid #99CAFF;
+  border-width: 1px 2px 2px 2px;
+  color: #000000;
+}
+
+#login-rememberme-first {
+  transform-origin: left; 
+  font-family: Arial; 
+    font-weight: 400;
+}
+
+#login-rememberme-first input {
+  position: relative;
+}
+
+#login-rememberme-first span {
+  position: relative;
+  margin: 0px;
+}
+
+#login-forgetpwd-first {
+  transform-origin: right; 
+  font-family: Arial; 
+  position: absolute;
+}
+
+#login-btn-first {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  cursor: pointer; 
+  position: absolute; 
+  background-color: #40506f; 
+  font-family: ArialBold; 
+  color: #FEFEFE;
+}
+
+@media (max-width: 424px) {
+  input[type='text'], input[type='password'] {
+    font-size: 0.8em !important;}
+  #login-box-first {
+    width: 256px;
+    height: 256px;
+  }
+
+  #topleft-logo-first {
+    width: 54px;
+    height: 28px;
+    top: 16px;
+    left: 16px;
+  }
+
+  #center-logo-wrapper-first {
+    top: calc((127px - 62.11px/2)/2);
+  }
+
+  #center-logo-first {
+    height: 62.11px;
+  }
+
+  #login-message-first {
+    transform: scale(0.65);
+    top: 116px;
+    left: 40px;
+    line-height: 9.5px;
+    font-size: 0.8em;
+    color: #342e2d;
+  }
+
+  #login-form-first {
+    top: 128px;
+    left: 40px;
+  }
+
+  #login-username-first {
+    width: 176px;
+    height: 24px;
+  }
+
+  #login-pwd-first {
+    width: 176px;
+    height: 24px;
+  }
+
+  #login-rememberme-first {
+    transform: scale(0.65);
+    top: 176px;
+    left: 40px;
+    line-height: 9.5px;
+    font-size: 0.8em;
+    color: #342e2d;
+  }
+
+  #login-rememberme-first span {
+    top: -5px;
+  }
+
+  #login-forgetpwd-first {
+    transform: scale(0.65);
+    top: 176px;
+    right: 40px;
+    line-height: 9.5px;
+    font-size: 0.8em;
+    color: #3395ff;
+  }
+
+  #login-btn-first {
+    right: 40px;
+    top: 192px;
+    width: 64px;
+    height: 21px;
+  }
+
+  #login-btn-first span {
+    line-height: 9px;
+    font-size: 0.8em;
+    transform: scale(0.8);
+  }
+}
+
+@media (min-width: 425px) and (max-width: 767px) {
+  input[type='text'], input[type='password'] {
+    font-size: 0.8em !important;
+  }
+  #login-box-first {
+    width: 302px;
+    height: 302px;
+  }
+
+  #topleft-logo-first {
+    width: 63px;
+    height: 32px;
+    top: 19px;
+    left: 19px;
+  }
+
+  #center-logo-wrapper-first {
+    top: calc((196px - 62.11px/2)*0.39);
+  }
+
+  #center-logo-first {
+    height: 62.11px;
+  }
+
+  #login-message-first {
+    transform: scale(0.8);
+    top: 139px;
+    left: 50.4px;
+    line-height: 11.4px;
+    font-size: 0.8em;
+    color: #342e2d;
+  }
+
+  #login-form-first {
+    top: 151px;
+    left: 50.4px;
+  }
+
+  #login-username-first {
+    width: 201.5px;
+    height: 25px;
+  }
+
+  #login-pwd-first {
+    width: 201.5px;
+    height: 25px;
+  }
+
+  #login-rememberme-first {
+    transform: scale(0.8);
+    top: 203px;
+    left: 50.4px;
+    line-height: 11.4px;
+    font-size: 0.8em;
+    color: #342e2d;
+  }
+
+  #login-rememberme-first span {
+    top: -5px;
+  }
+
+  #login-forgetpwd-first {
+    transform: scale(0.8);
+    top: 203px;
+    right: 50.4px;
+    line-height: 11.4px;
+    font-size: 0.8em;
+    color: #3395ff;
+  }
+
+  #login-btn-first {
+    right: 50.4px;
+    top: 227px;
+    width: 76px;
+    height: 25px;
+  }
+
+  #login-btn-first span {
+    line-height: 12px;
+    font-size: 0.944em;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  input[type='text'], input[type='password'] {
+    font-size: 0.928em !important;
+  }
+  #login-box-first {
+    width: 384px;
+    height: 384px;
+  }
+
+  #topleft-logo-first {
+    width: 80px;
+    height: 42px;
+    top: 24px;
+    left: 24px;
+  }
+
+  #center-logo-wrapper-first {
+    top: calc(120px - 93.16px/2);
+  }
+
+  #center-logo-first {
+    height: 93.16px;
+  }
+
+  #login-message-first {
+    top: 176px;
+    left: 64px;
+    line-height: 16px;
+    color: #342d2c;
+    font-size: 0.928em;
+  }
+
+  #login-form-first {
+    top: 192px;
+    left: 64px;
+  }
+
+  #login-username-first {
+    width: 256px;
+    height: 32px;
+  }
+
+  #login-pwd-first {
+    width: 256px;
+    height: 32px;
+  }
+
+  #login-rememberme-first {
+    top: 256px;
+    left: 64px;
+    line-height: 16px;
+    color: #342d2c;
+    font-size: 0.928em;
+  }
+
+  #login-rememberme-first input {
+    vertical-align: text-bottom;
+  }
+
+  #login-forgetpwd-first {
+    top: 256px;
+    right: 64px;
+    line-height: 16px;
+    color: #3395ff;
+    font-size: 0.928em;
+  }
+
+  #login-btn-first {
+    right: 64px;
+    top: 288px;
+    width: 96px;
+    height: 32px;
+  }
+
+  #login-btn-first span {
+    line-height: 16px;
+    font-size: 1.05em;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+  input[type='text'], input[type='password'] {
+    font-size: 0.928em !important;
+  }
+  #login-box-first {
+    width: 384px;
+    height: 384px;
+  }
+
+  #topleft-logo-first {
+    width: 80px;
+    height: 42px;
+    top: 24px;
+    left: 24px;
+  }
+
+  #center-logo-wrapper-first {
+    top: calc(120px - 93.16px/2);
+  }
+
+  #center-logo-first {
+    height: 93.16px;
+  }
+
+  #login-message-first {
+    top: 176px;
+    left: 64px;
+    line-height: 16px;
+    color: #342d2c;
+    font-size: 0.928em;
+  }
+
+  #login-form-first {
+    top: 192px;
+    left: 64px;
+  }
+
+  #login-username-first {
+    width: 256px;
+    height: 32px;
+  }
+
+  #login-pwd-first {
+    width: 256px;
+    height: 32px;
+  }
+
+  #login-rememberme-first {
+    top: 256px;
+    left: 64px;
+    line-height: 16px;
+    color: #342d2c;
+    font-size: 0.928em;
+  }
+
+  #login-rememberme-first input {
+    vertical-align: text-bottom;
+  }
+
+  #login-forgetpwd-first {
+    top: 256px;
+    right: 64px;
+    line-height: 16px;
+    color: #3395ff;
+    font-size: 0.928em;
+  }
+
+  #login-btn-first {
+    right: 64px;
+    top: 288px;
+    width: 96px;
+    height: 32px;
+  }
+
+  #login-btn-first span {
+    line-height: 16px;
+    font-size: 1.05em;
+  }
+}
+
+@media (min-width: 1440px) and (max-width: 2559px) {
+  input[type='text'], input[type='password'] {
+    font-size: 1.09em !important;
+  }
+  #login-box-first {
+    width: 512px;
+    height: 512px;
+  }
+
+  #topleft-logo-first {
+    width: 108px;
+    height: 56px;
+    top: 32px;
+    left: 32px;
+  }
+
+  #center-logo-wrapper-first {
+    top: calc(160px - 124.22px/2);
+  }
+
+  #center-logo-first {
+    height: 124.22px;
+  }
+
+  #login-message-first {
+    top: 232px;
+    left: 80px;
+    line-height: 19px;
+    color: #342e2d;
+    font-size: 1.09em;
+  }
+
+  #login-form-first {
+    top: 256px;
+    left: 80px;
+  }
+
+  #login-username-first {
+    width: 352px;
+    height: 48px;
+  }
+
+  #login-pwd-first {
+    width: 352px;
+    height: 48px;
+  }
+
+  #login-rememberme-first {
+    top: 357px;
+    left: 80px;
+    line-height: 19px;
+    color: #342e2d;
+    font-size: 1.09em;
+  }
+
+  #login-rememberme-first input {
+    vertical-align: baseline;
+  }
+
+  #login-forgetpwd-first {
+    top: 357px;
+    right: 80px;
+    line-height: 19px;
+    color: #3395ff;
+    font-size: 1.09em;
+  }
+
+  #login-btn-first {
+    right: 80px;
+    top: 384px;
+    width: 128px;
+    height: 42px;
+  }
+
+  #login-btn-first span {
+    font-size: 1.37em;
+    line-height: 18px;
+  }
+}
+
+@media (min-width: 2560px) {
+  #login-box-first {
+    width: 768px;
+    height: 768px;
+  }
+
+  #topleft-logo-first {
+    width: 160px;
+    height: 82px;
+    top: 48px;
+    left: 48px;
+  }
+
+  #center-logo-wrapper-first {
+    top: calc(240px - 186.33px/2);
+  }
+
+  #center-logo-first {
+    height: 186.33px;
+  }
+
+  #login-message-first {
+    top: 352px;
+    left: 128px;
+    line-height: 29px;
+    color: #342e2d;
+    font-size: 1.7em;
+  }
+
+  #login-form-first {
+    top: 384px;
+    left: 128px;
+  }
+
+  #login-username-first {
+    width: 512px;
+    height: 64px;
+  }
+
+  #login-pwd-first {
+    width: 512px;
+    height: 64px;
+  }
+
+  #login-rememberme-first {
+    top: 515px;
+    left: 128px;
+    line-height: 29px;
+    color: #342e2d;
+    font-size: 1.7em;
+  }
+
+  #login-rememberme-first input {
+    width: 19px;
+    height: 19px;
+    vertical-align: baseline;
+  }
+
+  #login-forgetpwd-first {
+    top: 515px;
+    right: 128px;
+    line-height: 29px;
+    color: #3395ff;
+    font-size: 1.7em;
+  }
+
+  #login-btn-first {
+    right: 128px;
+    top: 576px;
+    width: 192px;
+    height: 64px;
+  }
+
+  #login-btn-first span {
+    font-size: 2.4em;
+    line-height: 31px;
+  }
+}

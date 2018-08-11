@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/WSC/!svn/ver/7820/devicecloud/code/devicecloud_portal/test/e2e
+END
+nightwatch.conf.js
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/WSC/!svn/ver/7820/devicecloud/code/devicecloud_portal/test/e2e/nightwatch.conf.js
+END
+runner.js
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/WSC/!svn/ver/7766/devicecloud/code/devicecloud_portal/test/e2e/runner.js
+END

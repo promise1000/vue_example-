@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/WSC/!svn/ver/7605/devicecloud/code/devicecloud_portal/test/unit
+END
+.eslintrc
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/WSC/!svn/ver/7605/devicecloud/code/devicecloud_portal/test/unit/.eslintrc
+END
+jest.conf.js
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/WSC/!svn/ver/7605/devicecloud/code/devicecloud_portal/test/unit/jest.conf.js
+END
+setup.js
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/WSC/!svn/ver/7605/devicecloud/code/devicecloud_portal/test/unit/setup.js
+END
